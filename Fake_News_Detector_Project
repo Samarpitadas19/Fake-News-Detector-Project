@@ -11,8 +11,9 @@ texts = [
     "World ends tomorrow",
     "Elon Musk buys the Moon",
     "UN announces global peace treaty",
+    "OPERATION SINDOOR INDIAN ARMY"
 ]
-labels = ["REAL", "REAL", "FAKE", "FAKE", "REAL", "FAKE", "FAKE", "REAL"]
+labels = ["REAL", "REAL", "FAKE", "FAKE", "REAL", "FAKE", "FAKE", "REAL", "REAL"]
 
 # Step 1: Preprocess
 vectorizer = TfidfVectorizer()
